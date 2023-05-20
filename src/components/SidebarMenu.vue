@@ -27,9 +27,9 @@
  
 </svg>
 
-<main class="d-flex flex-nowrap">
+<main class="d-flex flex-nowrap" style="width: 250px; height: 100%">
 
-  <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 250px; height: 695px;">
+  <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" >
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       <span class="fs-4">Sistema Dante</span>
@@ -39,7 +39,7 @@
       <li class="nav-item">
         <router-link to="/" active-class="active" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#search"/></svg>
-          Búsqueda
+          Buscar
         </router-link>
       </li>
       <li>
