@@ -4,6 +4,7 @@ import InformesView from '../views/InformesView.vue'
 import AlumnosView from '../views/AlumnosView.vue'
 import ImportarViewVue from '@/views/ImportarView.vue'
 import AlumnoDetailView from '@/views/AlumnoDetailView.vue'
+import MovimientosView from '@/views/MovimientosView.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/alumnos/:id',
     name: 'alumno',
     component: AlumnoDetailView
+  },
+  {
+    path: '/movimientos',
+    name: 'movimientos',
+    component: MovimientosView
   },
   {
     path: '/importar',

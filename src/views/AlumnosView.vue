@@ -1,5 +1,7 @@
 <template>
-<div><h1>Alumnos</h1></div>
+<div>  
+    <h2 class="mt-2 text-center">Alumnos</h2>
+</div>
 </template>
 
 <script setup>

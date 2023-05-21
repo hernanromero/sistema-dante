@@ -2,24 +2,20 @@
 
 <div class="container" style="width: 90%;">
 
+  <h2 class="mt-2 text-center">Listado de alumnos</h2>
 
-    <div class="searchBar">
-     <!-- Filter Search -->
-     <div class="input-group mb-2 p-2">
-       <input 
-       type="search" 
-       class="form-control" 
-       v-model='filter' 
-       placeholder="Buscar por nombre" 
-       aria-label="Recipient's username" 
-       aria-describedby="button-addon2">
-     </div>
-         
-     </div>
+
+  <div class="input-group mb-3">
+  <input type="search" class="form-control" v-model='filter' placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-primary" type="button" id="button-addon2">Limpiar</button>
+</div>
+
+ 
+
        
       
   <div class="container">
-    <div class="table-responsive" >
+    <div class="table-wrapper-scroll-y my-scrollbar" >
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -65,5 +61,12 @@
       
   </script>
 <style>
-
+.my-scrollbar {
+position: relative;
+height: 500px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
 </style>

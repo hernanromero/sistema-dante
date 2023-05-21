@@ -22,7 +22,7 @@ import SidebarMenu from './components/SidebarMenu.vue';
 #app {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 233, 233);
     height: 100vh;
     width: 100vw;
 }
@@ -30,7 +30,10 @@ import SidebarMenu from './components/SidebarMenu.vue';
 .content {
     background-color: white;
     border-radius: 10px;
-    margin: 6px 6px 6px 10px;
+    margin: 15px 6px 6px 6px;
+    width: 95%;
+    padding: 20px;
+
 }
 
 </style>

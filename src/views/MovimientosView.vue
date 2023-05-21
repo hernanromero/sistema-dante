@@ -1,6 +1,6 @@
 <template>
 <div>  
-    <h2 class="mt-2 text-center">Informes</h2>
+    <h2 class="mt-2 text-center">Movimientos</h2>
 </div>
 </template>
 
